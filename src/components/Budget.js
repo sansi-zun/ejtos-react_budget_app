@@ -13,7 +13,7 @@ const Budget = () => {
                 type='number'
                 id='budget'
                 value={budget}
-                style={{ marginLeft: '1px' }}
+                style={{ marginLeft: '1px', maxWidth: '70%' }}
                 onChange={setBudget}>
             </input>
         </div>
